@@ -1,0 +1,37 @@
+# Build output
+*.o
+*.d
+*.elf
+*.bin
+*.hex
+*.map
+*.list
+
+# Build folders
+Debug/
+Release/
+
+# CubeIDE project-specific files to ignore
+.cproject
+.project
+.settings/
+.metadata/
+mxproject.xml
+
+# Optional: STM32CubeMX generated files you might not edit directly
+MX_*
+*.ioc~
+
+# OS junk files
+.DS_Store
+Thumbs.db
+
+# IDE-specific
+*.launch
+*.log
+*.swp
+*.user
+*.suo
+
+# Backup files
+*~
